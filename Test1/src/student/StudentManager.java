@@ -22,7 +22,7 @@ public class StudentManager {
         students.remove(name);
     }
 
-    // 학생 유무 확인22222
+    // 학생 유무 확인
     public boolean hasStudent(String name) {
         return students.contains(name);
     }
